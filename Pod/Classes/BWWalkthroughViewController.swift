@@ -124,12 +124,12 @@ At the moment it's only used to perform custom animations on didScroll.
         
         // Crisler: Customize page control UI
         let customForegroundColor: UIColor = UIColor(red:0.95, green:0.38, blue:0.47, alpha:1.0)
-        pageControl.currentPageIndicatorTintColor = customForegroundColor
+        pageControl?.currentPageIndicatorTintColor = customForegroundColor
 
         let dimGray: UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 0.5)
-        pageControl.pageIndicatorTintColor = dimGray
+        pageControl?.pageIndicatorTintColor = dimGray
         
-        //pageControl.transform = CGAffineTransformMakeScale(1.2,1.2)
+        pageControl.transform = CGAffineTransformMakeScale(1.2,1.2)
         
         pageControl?.addTarget(self, action: #selector(BWWalkthroughViewController.pageControlDidTouch), forControlEvents: UIControlEvents.TouchUpInside)
         
