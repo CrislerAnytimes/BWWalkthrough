@@ -129,7 +129,7 @@ At the moment it's only used to perform custom animations on didScroll.
         let dimGray: UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 0.5)
         pageControl?.pageIndicatorTintColor = dimGray
         
-        pageControl.transform = CGAffineTransformMakeScale(1.2,1.2)
+        pageControl!.transform = CGAffineTransformMakeScale(1.2,1.2)
         
         pageControl?.addTarget(self, action: #selector(BWWalkthroughViewController.pageControlDidTouch), forControlEvents: UIControlEvents.TouchUpInside)
         
