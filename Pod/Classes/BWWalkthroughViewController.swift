@@ -123,7 +123,7 @@ At the moment it's only used to perform custom animations on didScroll.
         // Initialize UI Elements
         
         // Crisler: Customize page control UI
-        let customForegroundColor: UIColor = UIColor(red:0.95, green:0.38, blue:0.47, alpha:1.0)
+        let customForegroundColor: UIColor = UIColor(red:1.00, green:0.00, blue:0.38, alpha:1.0)
         pageControl?.currentPageIndicatorTintColor = customForegroundColor
 
         let dimGray: UIColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 0.5)
